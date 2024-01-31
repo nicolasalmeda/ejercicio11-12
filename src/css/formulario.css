@@ -1,0 +1,35 @@
+.formulario-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.label-container{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.categoria{
+  font-size: 20px;  
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+#categoria, #paises{
+  max-width: 25%;
+  min-width: 10%;
+  margin-bottom: 5%;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+  background-color: rgb(238, 120, 120);
+  font-weight: bolder;
+  cursor: pointer;
+}
